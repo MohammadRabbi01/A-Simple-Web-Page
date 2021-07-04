@@ -1,0 +1,70 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(cyan,rgb(77, 77, 179));
+    padding: 10px 40px;
+    margin: 5px;
+    font-weight: 700px;
+    color: white;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Kitto{
+    width: 40%;
+    margin-left: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 2%;
+    border-radius: 5px;
+
+}
+.last-bg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#Kitto-01{
+    border-image: linear-gradient(pink,purple);
+    border-image-slice: 5;
+    border-left: solid 15px;
+}
+#Kitto-02{
+    border-image: linear-gradient(purple,navy);
+    border-image-slice: 2;
+    border-left: solid 15px;
+}
+#Align{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
